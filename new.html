@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="12 week program to change your physique, imporove your fitness and feel more confident and healty">
+    <meta name="keywords" content="strenght, endurance, bodybuilding, fitness, flexibility, martial arts, coachedbyandy">
+    <meta name="author" content="Andrew Smith">
+
+    <!------Title of website------>
+    <title>Coached By Andy</title>
+
+    <!--Link to the css code-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+   </head>
+<body>
+  <nav>
+    <div class="menu">
+      <div class="logo">
+        <a href="#">CoachedBy<span class="logo-name">Andy</span></a>
+      </div>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li> <a href="#about" aria-label="Go to about  section">About</a></li>
+        <li> <a href="#plans">Online Training Plans</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="img"></div>
+  <div class="center">
+    <div class="title">WHAT IS YOUR #1 GOAL?</div>
+    <div class="btn">
+      <button>GET IN TOUCH</button>
+    </div>
+  </div>
+
+    <!--about-->
+<div id="about">
+    <h1>About</h1>
+        <div class="container">
+          <div class="container-item" id="floatleft">
+            <img src="assets/images/profile.jpeg" alt="profile" style="float:left">
+          </div>
+          <div id="floatright">
+            <img src="assets/images/taekwondo.gif" alt="taekwondo symbol" style="float:right">
+          </div> 
+          <div class="">  
+            <p class="abouttext">
+                I started training in the gym and martial arts when I was 15 years old and 11 years old respectively.  The first martial arts I trained in was Kempo Karate for 3 years.   After that i decided to try another sytle of martial arts  which was YMAA Kung-Fu.  I decided to study this because I am a big fan of Bruce Lee.  I studied this style for 5 years and then I changed to Taekwondo. I study both styles of Taekwondo, ITF and WTF. <br> <br>
+                I am a qualified personal trainer and i work in Energie Fitness. I specialise in Strength and Conditioning,Bodybuilding, Flexibility and fitness for Martial Arts. 
+            </p>
+          </div> 
+
+
+        </div>
+</div>
+
+<!--Online Training Plans-->
+<div id="plans">
+    <h2>Online Training Plans</h2>
+    <div class="flex-container">
+        <div class="flex-item" id="plan1"><img src="assets/images/strenghtandendurance.jpeg">
+            <p id="para1">Strength and Conditioning</p>
+            <br>
+            <p id="para2">Strength and Conditioning focuses on ways to improve athletic performance including endurance, speed, strength and power.  A program will be designed specifically for each individual that aims to address the individual's weakness and to develop their strengths</p>
+        </div>
+
+        <div class="flex-item" id="plan2"><img src="assets/images/buildmuscle.jpeg">
+            <p id="para1">Bodybuilding</p>
+            <br>
+            <p id="para2">This personalised workout program will focus specifically on muscle hypertrophy which is an increase and growth of muscle cells through exercise using weights.  Each program will be for 12 weeks.</p>
+        </div>
+
+        <div class="flex-item" id="plan3"><img src="assets/images/martialartswoman.jpg">
+            <p id="para1">Martial Arts Fitness and Flexibility</p>
+            <br>
+            <p id="para2">Martial arts fitness and flexibility program involves gettig fit by using punching and kicking techniques with other fitness-based conditioning exercises.  Each program will be include stretching exercises pre-workout and post-workout designed specifially for martial artists.</p>
+        </div>
+    </div>
+</div>
+
+<!--Contact Form for recieving information from potential clients-->
+<div id="contact" class="container">
+  <div style="text-align:center">
+    <h2>GET IN TOUCH</h2>
+    <p>Swing by for a cup of coffee, or leave us a message:</p>
+  </div>
+  <div class="row">
+    <div class="column">
+      <img src="assets/images/contact3.jpeg" style="width:100%">
+    </div>
+    <div class="column">
+      <form action="/action_page.php">
+        <label for="fname">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your name">
+        <input type="text" id="email" name="email" placeholder="Your email">
+        <input type="text" id="telephone" name="telephone" placeholder="Telephone number">
+        <label for="program">Choose your program</label>
+        <select id="program" name="program">
+          <option value="S&C">Strength and Conditioning</option>
+          <option value="Bodybuilding">Bodybuilding</option>
+          <option value="Martial Arts">Martial Arts and Flexibility</option>
+        </select>
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="How can I help?.." style="height:170px"></textarea>
+        <input type="submit" value="Send message">
+      </form>
+    </div>
+  </div>
+</div>
+
+
+</body>
+</html>

@@ -9,7 +9,7 @@
   <meta name="keywords" content="strenght, endurance, bodybuilding, fitness, flexibility, martial arts, coachedbyandy">
   <meta name="author" content="Andrew Smith">
 
-  <!------Title of website------>
+  <!--Title of website-->
   <title>Coached By Andy</title>
 
   <!--Link to the css code-->
@@ -26,8 +26,8 @@
         </div>
         <ul>
           <li><a href="#">Home</a></li>
-          <li> <a href="#about" aria-label="Go to about section">About</a></li>
-          <li> <a href="#plans">Online Training Plans</a></li>
+          <li><a href="#about" aria-label="Go to about section">About</a></li>
+          <li><a href="#plans">Online Training Plans</a></li>
           <li><a href="gallery.html">Gallery</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
@@ -42,7 +42,9 @@
       </div>
       <div class="title">WHAT IS YOUR #1 GOAL?</div>
       <div class="btn">
-        <a href="#contact"><button>GET IN TOUCH</button></a>
+        <form style="display: inline" action="#contact" method="get">
+          <button>GET IN TOUCH</button>
+        </form>
       </div>
     </div>
   </section>
@@ -57,23 +59,22 @@
     <div id="right-about">
       <img src="assets/images/taekwondo.gif" alt="taekwondo symbol" style="float:right"></div>
 
-    <div id="center-about"></div>
-    <p class="abouttext">
-      <br>
-      I started training in the gym and martial arts when I was 15 years old and 11 years old respectively. The
-      first martial arts I trained in was Kempo Karate for 3 years. After that i decided to try another sytle of
-      martial arts which was YMAA Kung-Fu. I decided to practice this and others because I am a big fan of Bruce Lee,
-      Chuck Norris, Jean-Calude Van Damme to name a few. I practiced this style for 5 years and then I changed to
-      Taekwondo. I now practice both styles of Taekwondo, ITF and WTF. <br>
-      <br>
-      I am a qualified personal trainer and I work in Energie Fitness. I specialise in Strength and
-      Conditioning, Bodybuilding, Flexibility and fitness for Martial Arts. I am Spin qualified and teach that class a
-      few times a few times a week. I also teach group exercise classes such as circuit classes, strength classes and ab
-      classes.
-    </p>
+    <div id="center-about">
+      <p class="abouttext">
+        <br>
+        I started training in the gym and martial arts when I was 15 years old and 11 years old respectively. The
+        first martial arts I trained in was Kempo Karate for 3 years. After that i decided to try another sytle of
+        martial arts which was YMAA Kung-Fu. I decided to practice this and others because I am a big fan of Bruce Lee,
+        Chuck Norris, Jean-Calude Van Damme to name a few. I practiced this style for 5 years and then I changed to
+        Taekwondo. I now practice both styles of Taekwondo, ITF and WTF. <br>
+        <br>
+        I am a qualified personal trainer and I work in Energie Fitness. I specialise in Strength and
+        Conditioning, Bodybuilding, Flexibility and fitness for Martial Arts. I am Spin qualified and teach that class a
+        few times a few times a week. I also teach group exercise classes such as circuit classes, strength classes and
+        ab
+        classes.
+      </p>
     </div>
-
-
   </section>
 
   <!--Online Training Plans-->
@@ -81,28 +82,33 @@
     <div id="plans">
       <h2>Online Training Plans</h2>
       <div class="flex-container">
-        <div class="flex-item" id="plan1"><img src="assets/images/strenghtandendurance.jpeg">
-          <p id="para1">Strength and Conditioning</p>
+        <div class="flex-item" id="plan1"><img src="assets/images/strenghtandendurance.jpeg"
+            alt="A woman performing a deadlift">
+          <p id="para1scheading">Strength and Conditioning</p>
           <br>
-          <p id="para2">Strength and Conditioning focuses on ways to improve athletic performance including endurance,
+          <p id="para2sccontent">Strength and Conditioning focuses on ways to improve athletic performance including
+            endurance,
             speed, strength and power. A program will be designed specifically for each individual that aims to address
             the individual's weakness and to develop their strengths</p>
         </div>
 
 
-        <div class="flex-item" id="plan3"><img src="assets/images/martialartswoman.jpg">
-          <p id="para1">Martial Arts Fitness and Flexibility</p>
+        <div class="flex-item" id="plan3"><img src="assets/images/martialartswoman.jpg" alt="A woman kicking pads">
+          <p id="para1maheading">Martial Arts Fitness and Flexibility</p>
           <br>
-          <p id="para2">Martial arts fitness and flexibility program involves gettig fit by using punching and kicking
+          <p id="para2macontent">Martial arts fitness and flexibility program involves gettig fit by using punching and
+            kicking
             techniques with other fitness-based conditioning exercises. Each program will be include stretching
             exercises
             pre-workout and post-workout designed specifially for martial artists.</p>
         </div>
 
-        <div class="flex-item" id="plan2"><img src="assets/images/buildmuscle.jpeg">
-          <p id="para1">Bodybuilding</p>
+        <div class="flex-item" id="plan2"><img src="assets/images/buildmuscle.jpeg"
+            alt="A man performing a barbell bicep curl">
+          <p id="para1bdheading">Bodybuilding</p>
           <br>
-          <p id="para2">This personalised workout program will focus specifically on muscle hypertrophy which is an
+          <p id="para2bdcontent">This personalised workout program will focus specifically on muscle hypertrophy which
+            is an
             increase and growth of muscle cells through exercise using weights. Each program will be for 12 weeks.</p>
         </div>
 
@@ -111,25 +117,24 @@
   </section>
 
   <!--Contact Form for recieving information from potential clients-->
-
-  <section id="contact">
-    <div id="contact" class="container">
+  <section>
+    <div id="contact" class="container-contact">
       <div style="text-align:center">
         <h2>GET IN TOUCH</h2>
         <p><br>Get in touch for a free 30 minutes consultation:</p>
       </div>
       <div class="row">
         <div class="column">
-          <img src="assets/images/contact3.jpeg" style="width:100%">
+          <img src="assets/images/contact3.jpeg" style="width:100%" alt="A man performing a bicep curl with an EZ bar">
         </div>
         <div class="column">
           <form action="/action_page.php">
-            <label for="fname">Name:</label>
+            <label for="name">Name:</label>
             <input type="text" id="name" name="name" placeholder="Your name">
             <label for="email">Email address:</label>
             <input type="text" id="email" required name="email" placeholder="Your email">
             <label for="number">Telephone number:</label>
-            <input type="text" id="telephone" name="telephone" placeholder="Telephone number">
+            <input type="text" id="number" name="telephone" placeholder="Telephone number">
             <label for="program">Choose your program</label>
             <select id="program" name="program">
               <option value="S&C">Strength and Conditioning</option>

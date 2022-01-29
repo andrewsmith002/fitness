@@ -44,7 +44,7 @@ I tested that this page works in different browsers: Chrome, Safari
 
 
 Unfixed Bugs
-o	I have a problem with the responsive code. I couldn’t get the images to align vertically with the content and also the online training plan sections. I used float: left, margin: o etc. I also could not load screenshot into the README.md file
+o	I have a problem with the responsive code. I couldn’t get the images to align vertically with the content and also the online training plan sections. I used float: left, margin: o etc. I also could not load screenshot into the README.md file.  Alos my contact anchor tag would not work.  I was working originally but then when i changed errors usings the w3 validator the anchor would not work again. I got assistance from the tutor but they said it was unusal because my code is ok. They i ended up putting the id into a other div with the row and it kinf of work. But when you click on contact it brings you to that section but it missing the header part.
 
 Solved bugs
 

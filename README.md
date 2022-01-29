@@ -55,6 +55,6 @@ o	No errors were returned when passing through the official W3C validator
 •	No errors were found when passing through the official (Jigsaw) validator
 
 •	Accessibility
-
+ I got 96%
 
 

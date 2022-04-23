@@ -1,175 +1,250 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description"
-    content="12 week program to change your physique, imporove your fitness and feel more confident and healty">
-  <meta name="keywords" content="strenght, endurance, bodybuilding, fitness, flexibility, martial arts, coachedbyandy">
-  <meta name="author" content="Andrew Smith">
-
-  <!--Title of website-->
-  <title>Coached By Andy</title>
-
-  <!--Link to the css code-->
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+  <script src="https://kit.fontawesome.com/3d34f5d51d.js" crossorigin="anonymous"></script>
+  <title>Coached By Andy</title>
 </head>
 
 <body>
-  <header>
-    <nav>
-      <div class="menu">
-        <div class="logo">
-          <a href="index.html">CoachedBy<span class="logo-name">Andy</span></a>
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero">
+            <h1>CoachedBy<span>Andy</span></h1>
+          </a>
         </div>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#about" aria-label="Go to about section">About</a></li>
-          <li><a href="#plans">Online Training Plans</a></li>
-          <li><a href="gallery.html">Gallery</a></li>
-          <li><a href="index.html#contact">Contact</a></li>
-        </ul>
-      </div>
-    </nav>
-  </header>
-  <section id="hero-outer">
-    <div id="hero-image"></div>
-    <div class="center">
-      <div id="cover-text">
-        <h3>Get Fit, Lose Fat and Feel Happy</h3>
-      </div>
-      <div class="title">WHAT IS YOUR #1 GOAL?</div>
-      <div class="btn">
-        <form style="display: inline" action="#contact" method="get">
-          <button>GET IN TOUCH</button>
-        </form>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="#hero" data-after="Home">Home</a></li>
+            <li><a href="#about" data-after="About">About</a></li>
+            <li><a href="#plans" data-after="Plans">Online Training Plans</a></li>
+            <li><a href="#gallery" data-after="Gallery">Gallery</a></li>
+            <li><a href="#contact" data-after="Contact">Contact</a></li>
+          </ul>
+        </div>
       </div>
     </div>
   </section>
+  <!-- End Header -->
 
-  <!--about-->
+
+  <!-- Hero Section  -->
+  <section id="hero">
+    <div class="hero container">
+      <div>
+        <h2>Get Fit,<span></span></h2>
+        <h2>Lose Fat and Feel Happy<span></span></h2>
+        <h2>WHAT IS YOUR #1 GOAL?<span></span></h2>
+        <a href="#projects" type="button" class="cta">Portfolio</a>
+      </div>
+    </div>
+  </section>
+  <!-- End Hero Section  -->
+
+
+  <!-- About Section -->
   <section id="about">
-    <h1>About</h1>
-
-    <div id="left-about">
-      <img src="assets/images/profile.jpeg" alt="profile" style="float:left"></div>
-
-    <div id="right-about">
-      <img src="assets/images/taekwondo.gif" alt="taekwondo symbol" style="float:right"></div>
-
-    <div id="center-about">
-      <p class="abouttext">
-        <br>
-        I started training in the gym and martial arts when I was 15 years old and 11 years old respectively. The
-        first martial arts I trained in was Kempo Karate for 3 years. After that i decided to try another sytle of
-        martial arts which was YMAA Kung-Fu. I decided to practice this and others because I am a big fan of Bruce Lee,
-        Chuck Norris, Jean-Calude Van Damme to name a few. I practiced this style for 5 years and then I changed to
-        Taekwondo. I now practice both styles of Taekwondo, ITF and WTF. <br>
-        <br>
-        I am a qualified personal trainer and I work in Energie Fitness. I specialise in Strength and
-        Conditioning, Bodybuilding, Flexibility and fitness for Martial Arts. I am Spin qualified and teach that class a
-        few times a few times a week. I also teach group exercise classes such as circuit classes, strength classes and
-        ab
-        classes.
-      </p>
+    <div class="about container">
+      <div class="col-left">
+        <div class="about-img">
+          <img src="img/profile.jpeg" alt="img">
+        </div>
+      </div>
+      <div class="col-right">
+        <h1 class="section-title">About <span>me</span></h1>
+        <h2>Personal Trainer</h2>
+        <p>I started training in the gym and martial arts when I was 15 years old and 11 years old respectively. The first martial arts I trained in was Kempo Karate for 3 years. After that i decided to try another sytle of
+          martial arts which was YMAA Kung-Fu. I decided to practice this and others because I am a big fan of Bruce Lee,
+          Chuck Norris, Jean-Calude Van Damme to name a few. I practiced this style for 5 years and then I changed to
+          Taekwondo. I now practice both styles of Taekwondo, ITF and WTF. <br>
+          <br>
+          I am a qualified personal trainer and I work in Energie Fitness. I specialise in Strength and
+          Conditioning, Bodybuilding, Flexibility and fitness for Martial Arts. I am Spin qualified and teach that class a
+          few times a few times a week. I also teach group exercise classes such as circuit classes, strength classes and
+          ab
+          classes. </p>
+      </div>
     </div>
   </section>
+  <!-- End About Section -->
 
-  <!--Online Training Plans-->
-  <section id="container">
-    <div id="plans">
-      <h2>Online Training Plans</h2>
-      <div class="flex-container">
-        <div class="flex-item" id="plan1"><img src="assets/images/strenghtandendurance.jpeg"
-            alt="A woman performing a deadlift">
-          <p id="para1scheading">Strength and Conditioning</p>
-          <br>
-          <p id="para2sccontent">Strength and Conditioning focuses on ways to improve athletic performance including
-            endurance,
-            speed, strength and power. A program will be designed specifically for each individual that aims to address
+  <!-- Online Training Plans Section -->
+  <section id="plans">
+    <div class="plans container">
+      <div class="plans-top">
+        <h1 class="section-title">Online Training <span>Plans</span></h1>
+        <p>Coached by Andy offers personalised training programs tailored to your goals and adapted to the equipment available to you (whether its training in a gym or homeworkouts).  Whether you are looking for a 12-week workout program or one-to-one </p>
+      </div>
+      <div class="plans-bottom">
+        <div class="plans-item">
+          <div class="photo"><img src="img/strenghtandendurance.jpeg" class="sc"/></div>
+          <h2>Strength and Conditioning</h2>
+          <p>Strength and Conditioning focuses on ways to improve athletic performance including
+            endurance, speed, strength and power. A program will be designed specifically for each individual that aims to address
             the individual's weakness and to develop their strengths</p>
         </div>
-
-
-        <div class="flex-item" id="plan3"><img src="assets/images/martialartswoman.jpg" alt="A woman kicking pads">
-          <p id="para1maheading">Martial Arts Fitness and Flexibility</p>
-          <br>
-          <p id="para2macontent">Martial arts fitness and flexibility program involves gettig fit by using punching and
+        <div class="plans-item">
+          <div class="photo"><img src="img/buildmuscle.jpeg" class="build"/></div>
+          <h2>Bodybuilding</h2>
+          <p>This personalised workout program will focus specifically on muscle hypertrophy which
+            is an
+            increase and growth of muscle cells through exercise using a combination of weights resistance bands and bodyweight. Each program will be for 12 weeks.  The program will include sets, reps, supersets and rest periods. </p>
+        </div>
+        <div class="plans-item">
+          <div class="photo"><img src="img/martialartswoman.jpg" class="ma" /></div>
+          <h2>Martial Arts Fitness & Flexibility</h2>
+          <p>Martial arts fitness and flexibility program involves gettig fit by using punching and
             kicking
             techniques with other fitness-based conditioning exercises. Each program will be include stretching
             exercises
-            pre-workout and post-workout designed specifially for martial artists.</p>
+            pre-workout and post-workout designed specifically for martial artists.</p>
+        </div>
+       <!-- <div class="plans-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
+          <h2>Weight Loss</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis debitis rerum, magni voluptatem sed
+            architecto placeat beatae tenetur officia quod</p>
+        </div>-->
+      </div>
+    </div>
+  </section>
+  <!-- End Online Training Plans Section -->
+
+  <!-- Pricing Section -->
+  <section id="pricing">
+    <div class="pricing-container">
+      <div class="pricing-header"></div>
+        <h1 class="section-title"><Span>Pricing</Span> Plans</h1>
+      </div>
+      <div class="price-row">
+        <div class="price-col">
+          <p>1:1 Coaching</p>
+          <h3>€90</h3>
+          <ul>
+            <li>3 x 1 hour Sessions 1-on-1 training </li>
+            <br>
+            <li>Personalised workout program</li>
+            <br>
+            <li>Online Support via WhatsApp</li>
+          </ul>
+          <button>Add To Cart</button>
+        </div>
+        <div class="price-col">
+          <p>Standard</p>
+          <h3>€50</h3>
+          <ul>
+            <li>Personalised workout program</li>
+            <br>
+            <li>Online Support via WhatsApp</li>
+            <br>
+            <br>
+          </ul>
+          <button>Add To Cart</button>
+
+        </div>
+        <div class="price-col">
+          <p>Premium</p>
+          <h3>€80</h3>
+          <ul>
+            <li>personalised workout</li>
+            <br>
+            <li>Online Support via WhatsApp</li>
+            <br>
+            <li>Diet plan and supplements advice</li>
+          </ul>
+          <button>Add To Cart</button>
+
         </div>
 
-        <div class="flex-item" id="plan2"><img src="assets/images/buildmuscle.jpeg"
-            alt="A man performing a barbell bicep curl">
-          <p id="para1bdheading">Bodybuilding</p>
-          <br>
-          <p id="para2bdcontent">This personalised workout program will focus specifically on muscle hypertrophy which
-            is an
-            increase and growth of muscle cells through exercise using weights. Each program will be for 12 weeks.</p>
-        </div>
+      </div>
 
       </div>
     </div>
   </section>
+  <!-- End Projects Section -->
 
-  <!--Contact Form for recieving information from potential clients-->
-  <section>
-    <div id="contact" class="container-contact">
-      <div style="text-align:center">
-        <h2>GET IN TOUCH</h2>
-        <p><br>Get in touch for a free 30 minutes consultation:</p>
+ <!-- <section class="page-section"><div class="container"><div class="row"><div class="col-lg text-center section-header"><h2>My Personal Trainer Prices</h2><div class="line"></div></div></div><div class="row mb-2"><div class="col-md-6 col-lg-4 mb-2 mx-auto"><section class="pricing-table"><div class="pricing-table-ribbon"><span>N/A</span></div><div class="pricing-table-header"> Kick Starter</div><div class="pricing-table-price"><div> <del></del></div> <ins>€299</ins></div><ul class="pricing-table-list list-style-tick"><li>6 x 1:1 Training Sessions</li><li>Personalized Training Programme</li><li>Personalized Meal Plan</li><li>Anytime Support &amp; Contact</li></ul><div class="pricing-table-cta"> <a href="https://www.crfitness.ie/contact/" class="btn btn-primary btn-lg">Contact Me</a></div></section></div><div class="col-md-6 col-lg-4 mb-2 mx-auto"><section class="pricing-table"><div class="pricing-table-ribbon"><span>N/A</span></div><div class="pricing-table-header"> Spartan</div><div class="pricing-table-price"><div> <del></del></div> <ins>€359</ins></div><ul class="pricing-table-list list-style-tick"><li>10 x 1:1 Training Sessions</li><li>2 Training Programmes</li><li>Personalized Meal Plan</li><li>Anytime Support &amp; Contact</li></ul><div class="pricing-table-cta"> <a href="https://www.crfitness.ie/contact/" class="btn btn-primary btn-lg">Contact Me</a></div></section></div><div class="col-md-6 col-lg-4 mb-2 mx-auto"><section class="pricing-table"><div class="pricing-table-ribbon"><span>N/A</span></div><div class="pricing-table-header"> Transformer</div><div class="pricing-table-price"><div> <del></del></div> <ins>€329</ins></div><ul class="pricing-table-list list-style-tick"><li>8 x 1:1 Training Sessions</li><li>Personalized Training Programme</li><li>Personalized Meal Plan</li><li>Anytime Support &amp; Contact</li></ul><div class="pricing-table-cta"> <a href="https://www.crfitness.ie/contact/" class="btn btn-primary btn-lg">Contact Me</a></div></section></div></div><div class="row"><div class="col text-center"></div>-->
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="contact container">
+      <div>
+        <h1 class="section-title">Contact <span>info</span></h1>
       </div>
-      <div class="row">
-        <div class="column">
-          <img src="assets/images/contact3.jpeg" style="width:100%" alt="A man performing a bicep curl with an EZ bar">
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png" /></div>
+          <div class="contact-info">
+            <h1>Phone</h1>
+            <h2>+1 234 123 1234</h2>
+            <h2>+1 234 123 1234</h2>      
+          </div>
         </div>
-        <div class="column">
-          <form action="/action_page.php">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" placeholder="Your name">
-            <label for="email">Email address:</label>
-            <input type="text" id="email" required name="email" placeholder="Your email">
-            <label for="number">Telephone number:</label>
-            <input type="text" id="number" name="telephone" placeholder="Telephone number">
-            <label for="program">Choose your program</label>
-            <select id="program" name="program">
-              <option value="S&C">Strength and Conditioning</option>
-              <option value="Bodybuilding">Bodybuilding</option>
-              <option value="Martial Arts">Martial Arts and Flexibility</option>
-            </select>
-            <label for="subject">Subject</label>
-            <textarea id="subject" name="subject" placeholder="How can I help?.." style="height:170px"></textarea>
-            <input type="submit" value="Send message">
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png" /></div>
+          <div class="contact-info">
+            <h1>Email</h1>
+            <h2>info@gmail.com</h2>
+            <h2>abcd@gmail.com</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png" /></div>
+          <div class="contact-info">
+            <h1>Address</h1>
+            <h2>Fatikchhari, Chittagong, Bangladesh</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Contact Section -->
+
+
+  <!-- Footer -->
+    
+      <div class="footer">
+        <div class="col-1">
+          <h3>USEFUL LINKS</h3>
+          <a href="#about">About</a>
+          <a href="#plans">Online Training Plans</a>
+          <a href="#">Pricing</a>
+          <a href="#">Contact</a>
+        </div>
+          
+        <div class="col-2">
+          <h3>EBOOK</h3>
+          <form>
+            <input type="email" placeholder="Your Email Address" required>
+            <br>
+            <button type="submit">SUBSCRIBE NOW</button>
           </form>
         </div>
-      </div>
-    </div>
-  </section>
-  <footer>
-    <ul class="social-networks">
-      <li>
-        <a href="https://facebook.com" target="_blank" rel="noopener"
-          aria-label="visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook-square"></i></a>
-      </li>
-      <li>
-        <a href="https://twitter.com" target="_blank" rel="noopener"
-          aria-label="visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter"></i></a>
-      </li>
-      <li>
-        <a href="https://youtube.com" target="_blank" rel="noopener"
-          aria-label="visit our YouTube page (opens in a new tab)"><i class="fab fa-youtube"></i></a>
-      </li>
-      <li>
-        <a href="https://instagram.com" target="_blank" rel="noopener"
-          aria-label="visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
-      </li>
-    </ul>
-  </footer>
-  <!--font awesome script-->
+        <div class="col-3">
+          <h3>Social Media</h3>
+          <div class="social-icons">
+            <a href="https://facebook.com" target="_blank" rel="noopener"
+            aria-label="visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook-square"></i></a>
+            <a href="https://twitter.com" target="_blank" rel="noopener"
+            aria-label="visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter"></i></a>
+            <a href="https://youtube.com" target="_blank" rel="noopener"
+            aria-label="visit our YouTube page (opens in a new tab)"><i class="fab fa-youtube"></i></a>
+            <a href="https://instagram.com" target="_blank" rel="noopener"
+            aria-label="visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+
+  <!-- End Footer -->
+  <script src="./app.js"></script>
   <script src="https://kit.fontawesome.com/3d34f5d51d.js" crossorigin="anonymous"></script>
 </body>
 

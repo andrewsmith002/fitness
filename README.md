@@ -1,26 +1,37 @@
-CoachedbyAndy
-The landing page
-o	The CoachedbyAndy website is a landing page for anyone looking for personal training.  The website offers different types of personal training plans.
+<h1>CoachedbyAndy</h1>
+<h2>The landing page</h2>
+
+<br>
+Here is a link to my project:
+<br>
+<br>
+The CoachedbyAndy website is a landing page for anyone looking for personal training.  The website offers different types of personal training plans.
 
 o	Users of this website will be able to find information about the different types of personal training plans offered.  This site is targeted towards anyone who wants to improve their fitness and get in shape.
 The landing page image
 o	The landing page includes a photograph with text overly to allow the user to see exactly.
 o	This section introduces the user to CoachedbyAndy with an eye catching animation to grab their attention.
- 
+<br>
+<br>
 
-Features
-Navigation
-o	Featured at the top of the page, the navigation shows the logo of the website in the left corner: CoachedbyAndy that links to the top of the page.
+<h1>Features</h1>
+<br>
+<h2>Navigation</h2>
+<ul>
+<li>Featured at the top of the page, the navigation bar shows links to the different part of the website. On the top left in the navigation bar is the name of the website :CoachedbyAndy.</li>
 
-o	The other navigation links are to the right: About, Online Training Plans. Gallery, and Contact which link to different sections of the same page.
+<li>The navigation links are to the right: About, Online Training Plans. Pricing, and Contact which link to different sections of the same page.</li>
 
-o	The navigation bar is transparent and the hero-image in visible through the navigation bar. The navigation bar has a white border around it.
+<li>The navigation bar is transparent and the hero-image in visible through the navigation bar. The the cursor falls over onw of the links in the navigation bar the link will be highlighted in crimson color.</li>
 
-o	The navigation clearly tells the user the name of the company and makes the different sections of information easy to find.
+<li>The navigation clearly tells the user the name of the company and makes the different sections of information easy to find.</li>
+</ul>
 
-Online Training Plans section
-o	This section allows users to see three different training plans available.
-o	Users will also see a brief summary of each of the three plans.
+<h2>Online Training Plans section</h2>
+<ul>
+<li>This section allows users to see three different training plans available.</li>
+<li>Users will also see a brief summary of each of the three plans.</li>
+</ul>
  
 The Header
 o	The header shows the logo name using a blue color to emphasie my name
@@ -43,8 +54,11 @@ Testing
 I tested that this page works in different browsers: Chrome, Safari
 
 
-Unfixed Bugs
-o	I have a problem with the responsive code. I couldn’t get the images to align vertically with the content and also the online training plan sections. I used float: left, margin: o etc. I also could not load screenshot into the README.md file.  Alos my contact anchor tag would not work.  I was working originally but then when i changed errors usings the w3 validator the anchor would not work again. I got assistance from the tutor but they said it was unusal because my code is ok. They i ended up putting the id into a other div with the row and it kinf of work. But when you click on contact it brings you to that section but it missing the header part.
+<h2>Unfixed Bugs</h2>
+I have a problem with the responsive code. I couldn’t get the images to align vertically with the content and also the online training plan sections. I used float: left, margin: o etc. I also could not load screenshot into the README.md file.  Alos my contact anchor tag would not work.  I was working originally but then when i changed errors usings the w3 validator the anchor would not work again. I got assistance from the tutor but they said it was unusal because my code is ok. They i ended up putting the id into a other div with the row and it kinf of work. But when you click on contact it brings you to that section but it missing the header part.
+
+<h1>Deployment</h1>
+
 
 Solved bugs
 

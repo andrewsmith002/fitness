@@ -407,13 +407,19 @@ p {
 
 /* Pricing Section*/
 #pricing .pricing-container{
-	color: crimson;
+	/*color: crimson;
 	font-size: 32px;
 	padding: 50px 0px;
 	text-align: center;
 	margin-top: 50px;
-	margin-bottom: 25px;
+	margin-bottom: 25px;*/
 
+	flex-direction: column;
+	text-align: center;
+	max-width: 1500px;
+	margin: 0 auto;
+	padding: 8px 0;
+	
 
 }
 
@@ -528,13 +534,21 @@ p {
 
 /* Footer */
 .footer{
-	margin-top: 5px;
-	width: 100%;
-	padding: 20px 15%;
+	flex-direction: column;
+	padding: 100px 0;
+	align-items: center;
+	justify-content: center;
+	min-width: 20vh;
 	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
 	display: flex;
-	color: white;	
+	color: white;
+
+	/*flex-direction: column;
+	max-width: 1200px;*/
+	/*margin: 0 auto;
+	width: 100%;*/
 }
+
 
 .footer div{
 	text-align: center;
@@ -680,6 +694,11 @@ form button{
 	}	/* End Online Training Plans Section */
 
 /* Pricing Section */
+.price-row  {
+	flex-direction:column;
+	max-width: 800px;
+
+}
 .price-row .price-row .price-col {
 	flex-basis: 45%;
 	margin: 2.5%;
@@ -719,6 +738,75 @@ form button{
 		text-align: left;
 		padding-left: 20px;
 	}
+	.footer{
+		flex-direction:row;
+		margin-top: 15px;
+		width: 100%;
+		padding: 20px 15%;
+		background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+		display: flex;
+		color: white;	
+	}
+	
+.footer div{
+	text-align: center;
+}
+
+.col-2{
+	flex-grow: 2;
+}
+
+.footer div h3{
+	font-weight: 300;
+	margin-bottom: 30px;
+	letter-spacing: 1px;
+}
+
+.col-1 a{
+	display: block;
+	text-decoration: none;
+	color: #efefef;
+	margin-bottom: 10px;
+}
+
+.col-3 a{
+	display: block;
+	text-decoration: none;
+	color: #efefef;
+	margin-bottom: 10px;
+}
+
+form input{
+	width: 400px;
+	height: 45px;
+	border-radius: 4px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	outline: none;
+	border: none;	
+}
+
+form button{
+	background: transparent;
+	border: 2px solid #fff;
+	color: #fff;
+	border-radius: 30px;
+	padding: 10px 30px;
+	font-size: 15px;
+	cursor: pointer;
+}
+
+.social-icons{
+	margin-top: 30px;
+	color: white;
+}
+
+.social-icons i{
+	font-size: 22px;
+	margin: 10px;
+	cursor: pointer;
+}
 	/* End contact  */
 }
 /* End Media Query For Tablet */
@@ -750,6 +838,12 @@ form button{
 	#plans .plans-bottom .plans-item {
 		flex-basis: 22%;
 		margin: 1.5%;
+	}
+	.footer{
+		/*flex-direction: column;*/
+		/*max-width: 1200px;*/
+
+		
 	}
 }
 /* End  Media Query For Desktop */

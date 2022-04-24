@@ -846,4 +846,10 @@ form button{
 		
 	}
 }
+
+@media screen and (max-width: 915px) {
+    .price-row {            
+        grid-template-columns: 1fr;    
+    }
+}
 /* End  Media Query For Desktop */

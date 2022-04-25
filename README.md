@@ -60,6 +60,9 @@ I have a problem with the responsive code. I couldn’t get the images to align 
 <h1>Deployment</h1>
 
 
+Document checking completed. No errors or warnings to show
+
+
 Solved bugs
 
 Validator Testing

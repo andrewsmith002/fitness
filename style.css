@@ -457,14 +457,14 @@ p {
 
 .price-col ul{
 	text-align: left;
-	margin: 20px o;
+	/*margin: 20px o;*/
 	color: white;
 	list-style: none;
 	font-size: 13px;
 }
 
 .price-col ul li{
-	margin: 15px o;
+/*	margin: 15px o;*/
 }
 
 .price-col ul li::before{

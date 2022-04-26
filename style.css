@@ -199,17 +199,6 @@ p {
 		animation-fill-mode: forwards;
 		}
 
-/*--creates the level of zoom for hero image--*/
-/*@keyframes img-zoom {
-	from {
-	  transform: scale(1);
-	}
-  
-	to {
-	  transform: scale(1.1);
-	}
-  } 
-*/
 #hero::after {
 	content: '';
 	position: absolute;
@@ -382,9 +371,9 @@ p {
 	height: 260px;
 	width: 260px;
 	position: relative;
-	/*border: 5px solid 15;*/
+	border: 2px solid;
 	border-radius: 25px;
-	/*border-color: crimson;*/
+	border-color: crimson;
 	margin-top: 20px;
 	margin-bottom: 15px;
 }
@@ -392,9 +381,9 @@ p {
 	height: 260px;
 	width: 260px;
 	position: relative;
-	/*border: 5px solid;*/
+	border: 2px solid;
 	border-radius: 25px;
-	/*border-color: crimson;*/
+	border-color: crimson;
 	margin-top: 20px;
 	margin-bottom: 15px;
 }
@@ -402,9 +391,9 @@ p {
 	height: 260px;
 	width: 260px;
 	position: relative;
-	/*border: 5px solid;*/
+	border: 2px solid;
 	border-radius: 25px;
-	/*border-color: crimson;*/
+	border-color: crimson;
 	margin-top: 20px;
 	margin-bottom: 15px;
 }
@@ -412,12 +401,12 @@ p {
 
 /* Pricing Section*/
 #pricing .pricing-container{
-	/*color: crimson;
+	color: crimson;
 	font-size: 32px;
 	padding: 50px 0px;
 	text-align: center;
 	margin-top: 50px;
-	margin-bottom: 25px;*/
+	margin-bottom: 25px;
 
 	flex-direction: column;
 	text-align: center;
@@ -547,11 +536,6 @@ p {
 	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
 	display: flex;
 	color: white;
-
-	/*flex-direction: column;
-	max-width: 1200px;*/
-	/*margin: 0 auto;
-	width: 100%;*/
 }
 
 
@@ -822,7 +806,7 @@ form button{
 
 /* Media Query For Desktop */
 @media only screen and (min-width: 1200px) {
-	/* header */
+	/* Start header */
 	#header .hamburger {
 		display: none;
 	}

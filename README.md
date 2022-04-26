@@ -123,9 +123,30 @@ In relation to the CSS testing, after passing the code through the validator, it
 
 <h2>Unfixed Bugs</h2>
 <br>
-All bugs and erros were fixed. When the code for HTML was passed through the w3c validator, no errors or warnings were returned.  When the code for CSS was passed through the w3c validator, no errors or warnings were returned.
+All bugs and erros were fixed. When the code for HTML was passed through the w3c validator, no errors or warnings were returned.  When the code for CSS was passed through the w3c validator, no errors or warnings were returned.<br><br>
 
 <h1>Deployment</h1>
+<br>
+
+<h1>Credits</h1>
+<br>
+
+<h2>YouTube</h2>
+<ul>
+<li>https://www.youtube.com/watch?v=YOb67OKw62s</li> 
+<li>https://www.youtube.com/watch?v=2-5LpaN2LF8</li>
+<li>https://www.youtube.com/watch?v=lLdzlLL33G8</li>
+</ul>
+<br>
+
+<h2>Websites</h2>
+<ul>
+<li>https://css-tricks.com/a-complete-guide-to-css-media-queries/</li>
+<li>https://icons8.com/</li>
+<li>https://stackoverflow.com/</li>
+<li>https://www.w3schools.com/</li>
+</ul>
+
 
 
 

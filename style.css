@@ -310,7 +310,7 @@ p {
 	top: 19px;
 	height: 98%;
 	width: 98%;
-	/*border: 7px solid crimson;*/
+	border: 7px solid crimson;
 	z-index: -1;
 }
 
@@ -707,6 +707,10 @@ form button{
 .price-row .price-row .price-col {
 	flex-basis: 45%;
 	margin: 2.5%;
+}
+
+.section-title{
+	margin-top: 8%;
 }
 /* End Pricing Section */
 	

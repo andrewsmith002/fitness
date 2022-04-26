@@ -384,7 +384,7 @@ p {
 	border: 2px solid;
 	border-radius: 25px;
 	border-color: crimson;
-	margin-top: 20px;
+	margin-top: 18%;
 	margin-bottom: 15px;
 }
 .ma {
@@ -413,8 +413,6 @@ p {
 	max-width: 1500px;
 	margin: 0 auto;
 	padding: 8px 0;
-	
-
 }
 
 .price-row{
@@ -452,13 +450,9 @@ p {
 	font-size: 13px;
 }
 
-.price-col ul li{
-/*	margin: 15px o;*/
-}
-
 .price-col ul li::before{
 	content: '\2022';
-	color: #e33058;
+	color: crimson;
 	font-weight: bold;
 	margin-right: 8px;
 }
@@ -469,7 +463,7 @@ p {
 	background: transparent;
 	color: #ddd;
 	font-size: 15px;
-	border: 1px solid #e33058;
+	border: 1px solid crimson;
 	border-radius: 6px;
 	margin-top: 30px;
 	cursor: pointer;

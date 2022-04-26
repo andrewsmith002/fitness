@@ -121,9 +121,26 @@ In relation to the CSS testing, after passing the code through the validator, it
 <br>
 <br>
 
+<ul>
+<li><h3>Accessibility</h3>
+I ran the code through lighthouse in devtools using Google Chrome and i got an accessibility score of 95% however the errors related to heading not in order. I fixed the headings but the score remaining the same however each time i ran the code in lighthouse the performance score kept reducing.</li>
+<br>
+<ul>
+<li>Lighthouse made reference to issues affecting this run of lighthouse and suggested auditing the page in incognito mode.</li>
+<br>
+<li>I used the incognito mode and recieved a higher result as can be seen below in the image:</li>
+</ul>
+</ul>
+<br>
+
 <h2>Unfixed Bugs</h2>
 <br>
 All bugs and erros were fixed. When the code for HTML was passed through the w3c validator, no errors or warnings were returned.  When the code for CSS was passed through the w3c validator, no errors or warnings were returned.<br><br>
+
+
+<img src="img/lighthouse fitness.png">
+<br>
+<br>
 
 <h1>Deployment</h1>
 <br>

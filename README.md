@@ -3,6 +3,8 @@
 
 <br>
 Here is a link to my project:
+https://github.com/andrewsmith002/fitness
+https://andrewsmith002.github.io/fitness/
 <br>
 <br>
 The CoachedbyAndy website is a landing page for anyone looking for personal training.  The website offers different types of personal training plans.  Users of this website will be able to find information about the different types of personal training plans offered.  This site is targeted towards anyone who wants to improve their fitness and get in shape.

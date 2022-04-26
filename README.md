@@ -127,6 +127,9 @@ All bugs and erros were fixed. When the code for HTML was passed through the w3c
 
 <h1>Deployment</h1>
 <br>
+This was delpoyed using github.
+<br>
+<br>
 
 <h1>Credits</h1>
 <br>
@@ -145,6 +148,7 @@ All bugs and erros were fixed. When the code for HTML was passed through the w3c
 <li>https://icons8.com/</li>
 <li>https://stackoverflow.com/</li>
 <li>https://www.w3schools.com/</li>
+<li>https://catswhocode.com/</li>
 </ul>
 
 

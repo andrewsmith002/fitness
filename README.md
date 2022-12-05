@@ -146,7 +146,7 @@ All bugs and erros were fixed. When the code for HTML was passed through the w3c
 
 <h1>Deployment</h1>
 <br>
-This was delpoyed using github.
+This website was delpoyed using github, a free hosting service which is available through github. Prior to deploying the website, i first saved my project and then pusted my saved code to gihub.  i then went to the github website and logged-in. When i logged-in, i was able to see a list of my repositories on the left of the website. I then clicked the name of my project (andrewsmith002/fitness). When that page opened, i then clicked the settings tab at the top of the page. I scrolled down to the "GitHub Pages" section heading. In that section i need to select a source to tell Github where to find the code to deploy from. I clicked on the dropdown menu where it says "None" under the sub-heading "Source". In the dropdown menu i selected "main" and then I clicked "save". When I clicked on "save", the page automatically refreshed. In order to retrieve my deployed link, I scrolled down to the "Github Pages" section.  The deployed link was under the heading. I then clicked that link to see if my website has finished deploying. When it was fully deployed, I checked that the links were working. 
 <br>
 <br>
 

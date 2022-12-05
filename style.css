@@ -303,19 +303,21 @@ p {
 	z-index: -1;
 }
 
+
 /* End About Section */
 
 /*  Online Training Plans Section */
 #plans .plans {
 	flex-direction: column;
 	text-align: center;
-	max-width: 1500px;
+	max-width: 1200px;
 	margin: 0 auto;
 	padding: 8px 0;
 }
 #plans .plans-top {
 	max-width: 850px;
 	margin: 0 auto;
+	text-align: center;
 }
 #plans .plans-bottom {
 	display: flex;

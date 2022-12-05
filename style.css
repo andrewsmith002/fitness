@@ -3,7 +3,7 @@
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
-  	/*border: none;*/
+  	border: none;
 }
 html {
 	font-size: 12px;
@@ -68,6 +68,11 @@ p {
 	min-height: 8vh;
 	background-color: rgba(31, 30, 30, 0.24);
 	transition: 0.3s ease background-color;
+}
+
+.nav-bar {
+	display: block;
+	font-size: 4rem;
 }
 #header .nav-bar {
 	display: flex;
@@ -183,6 +188,7 @@ p {
 	top: 0;
 }
 /* End Header section */
+  
 
 /* Hero Section */
 #hero {
@@ -836,3 +842,21 @@ form button{
     }
 }
 /* End  Media Query For Desktop */
+
+@media screen and (max-width: 600px) {
+#hero h2 {
+	display:block;
+	width: 70px;
+	font-size: 2rem;
+	position:relative;
+	color: transparent;
+	animation: text_reveal 0.5s ease forwards;
+	animation-delay: 1s;
+}}
+
+@media screen and (max-width: 600px) {
+	.nav-bar h1{
+		display:contents;
+		font-size: 2rem;
+	}
+}
